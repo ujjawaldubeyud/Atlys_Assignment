@@ -1,0 +1,94 @@
+.function-card {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    text-align: left;
+    position: relative;
+    color: black;
+  }
+  
+  .function-card h3 {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: grey;
+  }
+  
+  .function-card label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .function-card .equation {
+    width: 180px; 
+    padding: 8px;
+    font-size: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .function-card select {
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .function-card select[disabled] {
+    background-color: #eae8e8;
+    cursor: not-allowed;
+  }
+  
+  .function-card .result {
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .function-card .result span {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  .function-card .result input[type="radio"] {
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  .function-card .result label {
+    line-height: 1;
+    margin-top: 3px;
+  }
+  
+  /* Hide the default checkbox */
+  input[type="checkbox"] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 2.5px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Add a "checked" look */
+  input[type="checkbox"]:checked {
+    background-color: royalblue;
+  }
+  
+  /* Add hover effects */
+  input[type="checkbox"]:hover {
+    border-color: #ccc;
+  }

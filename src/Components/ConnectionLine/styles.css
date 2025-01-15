@@ -1,0 +1,9 @@
+.wavy-line {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 200px;
+    height: 5px;
+    background: blue;
+    pointer-events: none;
+  }
